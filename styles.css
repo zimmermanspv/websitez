@@ -292,3 +292,40 @@ footer {
     align-content: flex-end;
     font-size: .8em;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .masthead-main {
+        height: 50vh;
+        width: 100%;
+        background-image: url(images/masthead.png);
+        background-size: cover;
+        align-content: center;
+        background-position-y: 55%;
+        justify-items: center;
+    }
+    
+    .masthead-title {
+        font-size: 4em;
+    }
+    
+    .page h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 1em;
+        padding-left: 20px;
+    }
+
+    .page h2 {
+        color: white;
+        font-weight: 100;
+        font-style: oblique;
+        font-size: .8em;
+        padding-left: 20px;
+    }
+    
+    .masthead-scroll {
+        opacity: 0;
+    }
+    
+}
