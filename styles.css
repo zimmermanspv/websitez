@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Helvetica";
+    src: 
+        url("fonts/Helvetica.woff") format("woff"),
+        url("fonts/Helvetica-Bold.woff") format("woff"),
+        url("fonts/Helvetica-BoldOblique.woff") format("woff"),
+        url("fonts/helvetica-compressed-5871d14b6903a") format("woff"),
+        url("fonts/helvetica-light-587ebe5a59211") format("woff"),
+        url("fonts/Helvetica-Oblique") format("woff"),
+        url("helvetica-rounded-bold-5871d05ead8de") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    font-family: "helvetica";
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: opacity 1.5s ease-in-out;
+    opacity: 0;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+header {
+    width: 100%;
+    justify-items: center;
+}
+
+nav {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 80px;
+    
+}
+
+.masthead-main {
+    height: 91vh;
+    width: 100%;
+    background-image: url(images/masthead.png);
+    background-size: cover;
+    align-content: center;
+    background-position-y: 55%;
+    justify-items: center;
+}
+
+.masthead {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    align-content: center;
+    background-position-y: 55%;
+}
+
+.masthead h1, .masthead h2, .masthead h3 {
+    padding-left: 9%;
+}
+
+
+.masthead-desc {
+    font-family: "helvetica";
+    color:#FFE100;
+    font-weight: 300;
+    font-size: 1.7em;
+    font-style: oblique;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.masthead-desc-sub {
+    font-family: "helvetica";
+    color: #ffe100;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+.masthead-scroll {
+    font-family: "helvetica";
+    font-weight: 100;
+    letter-spacing: 6px;
+    margin-top: 30vh;
+    font-size: 4em;
+    display:flex;
+    justify-self: center;
+    scale: 1.5 1;
+}
+
+
+.masthead-title {
+    font-family: "helvetica";
+    color:#FFE100;
+    font-size: 6em;
+    margin-top: 10vh;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    line-height: .9em;
+}
+
+header a {
+    font-family: "helvetica";
+    color: #FFE100;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+header a:hover {
+    color: white;
+}
+
+.header-social-hover {
+    padding-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.header-social-hover img {
+    position: absolute;
+    margin-top: -21px;
+}
+
+.header-social-hover .img-hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header-social-hover:hover .img-hover {
+    opacity: 1;
+}
+
+
+
+
+.header-logo-hover {
+    margin-left: -85px;
+    position: relative;
+    display: inline-block;
+}
+
+.header-logo-hover img {
+    position: absolute;
+    margin-top: -88px;
+}
+
+.header-logo-hover .img-hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header-logo-hover:hover .img-hover {
+    opacity: 1;
+}
+
+
+
+
+
+.pages-page-hover {
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pages-page-hover a {
+    position: absolute;
+    height: 100%;
+    align-content: center;
+}
+
+.pages-page-hover .img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pages-page-hover .img-hover {
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pages-page-hover:hover .img {
+    opacity: 0.8;
+}
+
+.pages-page-hover:hover .img-hover {
+    opacity: 1;
+}
+
+
+
+
+
+.header-logo {
+    font-family: "helvetica";
+    color: white;
+    font-weight: 900;
+    font-size: 4em;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pages {
+    width: 97%;
+    justify-self: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.page {
+    flex: 1;
+    min-width: 0;
+    flex-basis: calc((100% / 3) - (18px * 3 / 4)); 
+    aspect-ratio: 1 / 1;
+}
+
+.page a {
+    text-decoration: none;
+}
+
+.page h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 3em;
+    padding-left: 20px;
+}
+
+.page h2 {
+    color: white;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+.page img {
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.page-end {
+    border: solid 1px #ffe100;
+    justify-items: center;
+    align-content: center;
+    color: #ffe100;
+}
+
+
+.pictures {
+    width: 97%;
+    justify-self: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.pictures div {
+    flex-basis: calc((100% / 3) - (18px * 3 / 4));
+    min-width: 0;
+}
+
+.pictures div img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+footer {
+    height: 100px;
+    color: #ffe100;
+    justify-self: center;
+    align-content: flex-end;
+    font-size: .8em;
+}
