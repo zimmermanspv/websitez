@@ -282,7 +282,9 @@ header a:hover {
     height: auto;
 }
 
-
+.logo {
+    height: 130px;
+}
 
 
 footer {
@@ -306,7 +308,11 @@ footer {
     }
     
     .masthead-title {
-        font-size: 4em;
+        font-size: 3em;
+    }
+    
+    .masthead-desc {
+        font-size: 1em;
     }
     
     .page h1 {
@@ -326,6 +332,10 @@ footer {
     
     .masthead-scroll {
         opacity: 0;
+    }
+    
+    .logo {
+        height: 80px;
     }
 
 }
