@@ -294,7 +294,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
     .masthead-main {
         height: 50vh;
         width: 100%;
