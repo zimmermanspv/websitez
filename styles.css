@@ -42,7 +42,10 @@ nav {
     justify-content: center;
     gap: 40px;
     height: 80px;
-    
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .masthead-main {
@@ -88,19 +91,17 @@ nav {
 .masthead-scroll {
     font-family: "helvetica";
     font-weight: 100;
-    letter-spacing: 6px;
-    margin-top: 30vh;
-    font-size: 4em;
-    display:flex;
-    justify-self: center;
-    scale: 1.5 1;
+    letter-spacing: 4.5px;
+    font-size: 5em;
+    line-height: 0.5;
+    text-decoration: none;
 }
 
 
 .masthead-title {
     font-family: "helvetica";
-    color:#FFE100;
-    font-size: 6em;
+    color:#ffe100;
+    font-size: 7em;
     margin-top: 10vh;
     margin-bottom: 0;
     letter-spacing: 3px;
@@ -110,7 +111,6 @@ nav {
 header a {
     font-family: "helvetica";
     color: #FFE100;
-    text-decoration: none;
     font-size: 1.3em;
     font-weight: 600;
     transition: color 0.3s ease-in-out;
@@ -145,23 +145,22 @@ header a {
 
 .pages-page-hover a {
     position: absolute;
-    height: 100%;
-    align-content: center;
+    height: 97%;
+    align-content:flex-end;
 }
 
 .pages-page-hover .img {
     opacity: 1;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .pages-page-hover .img-hover {
     margin: 0;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .pages-page-hover:hover .img {
-    opacity: 0.8;
+    opacity: .9;
+    border: 1px solid #FFE100;
 }
 
 .pages-page-hover:hover .img-hover {
@@ -225,9 +224,40 @@ header a {
 
 .page-end {
     border: solid 1px #ffe100;
-    justify-items: center;
-    align-content: center;
     color: #ffe100;
+    align-content: flex-end;
+}
+
+.page-end h1 {
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: 0;
+    margin-left:20px;
+}
+
+.button {
+    width: 200px;
+    padding: 20px;
+    font-family: "helvetica";
+    font-size: 1.3em;
+    font-weight: 100;
+    background-color:#FFE100;
+    color:black;
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+
+.masthead-button {
+    width: 200px;
+    padding: 20px;
+    font-family: "helvetica";
+    font-size: 1.9em;
+    font-weight: 100;
+    /*font-style: oblique;*/
+    background:none;
+    color:#ffe100;
+    border: 3px solid #ffe100;
+    margin-top: 40%;
 }
 
 
