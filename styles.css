@@ -52,7 +52,7 @@ nav a {
 }
 
 .masthead-main {
-    height: 95vh;
+    height: 91vh;
     width: 100%;
     background-image: url(images/masthead.png);
     background-size: cover;
@@ -265,7 +265,7 @@ header a {
     background:none;
     color:#ffe100;
     border: 3px solid #ffe100;
-    margin-top: 40%;
+    margin-top: 21%;
 }
 
 .masthead-button:hover {
