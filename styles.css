@@ -341,14 +341,14 @@ footer a:any-link {
     }
     
     .page h1 {
-        color: white;
+        color: #ffe100;
         font-weight: 100;
         font-size: 1em;
         padding-left: 20px;
     }
 
     .page h2 {
-        color: white;
+        color: #ffe100;
         font-weight: 100;
         font-style: oblique;
         font-size: .8em;
@@ -385,9 +385,9 @@ footer a:any-link {
         font-size: 1em;
         font-weight: 100;
         background-color:#FFE100;
-        color:black;
-        margin-bottom: 20px;
-        margin-left:20px;
+        color: black;
+        margin-bottom: 15px;
+        margin-left: 15px;
     }
     
     .masthead-button {
