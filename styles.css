@@ -339,7 +339,7 @@ footer a:any-link {
     
     
     .masthead-main {
-        height: 50vh;
+        height: 49vh;
         width: 100%;
         background-image: url(images/masthead.png);
         background-size: cover;
@@ -422,6 +422,10 @@ footer a:any-link {
     
     .masthead-button {
         margin-left: 30px;
+    }
+    
+    footer {
+        margin-bottom: 0;
     }
     
 }
