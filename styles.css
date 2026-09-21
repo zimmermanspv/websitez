@@ -46,7 +46,7 @@ nav {
 }
 
 .masthead-main {
-    height: 91vh;
+    height: 95vh;
     width: 100%;
     background-image: url(images/masthead.png);
     background-size: cover;
@@ -116,9 +116,6 @@ header a {
     transition: color 0.3s ease-in-out;
 }
 
-header a:hover {
-    color: white;
-}
 
 .header-social-hover {
     padding-left: 10px;
@@ -205,14 +202,14 @@ header a:hover {
 }
 
 .page h1 {
-    color: white;
+    color: #ffe100;
     font-weight: 100;
     font-size: 3em;
     padding-left: 20px;
 }
 
 .page h2 {
-    color: white;
+    color: #ffe100;
     font-weight: 100;
     font-style: oblique;
     font-size: 1em;
@@ -259,11 +256,21 @@ header a:hover {
 
 
 footer {
+    width: 97%;
+    justify-self: center;
     height: 100px;
     color: #ffe100;
-    justify-self: center;
-    align-content: flex-end;
+    align-content: center;
     font-size: .8em;
+}
+
+footer a {
+    color: ffe100;
+    text-decoration: underline;
+}
+
+footer a:any-link {
+    color: #FFE100;
 }
 
 
