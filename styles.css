@@ -121,6 +121,10 @@ nav a {
     line-height: .9em;
 }
 
+.masthead-desc-sub a {
+    padding-left: 0;
+}
+
 header a {
     font-family: "helvetica";
     color: #FFE100;
@@ -426,6 +430,10 @@ footer a:any-link {
     
     footer {
         margin-bottom: 0;
+    }
+    
+    .masthead-desc-sub a {
+        padding-left: 0;
     }
     
 }
