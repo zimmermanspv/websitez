@@ -328,7 +328,7 @@ footer a:any-link {
     
     .masthead-main {
         height: 50%;
-        width: 97.1%;
+        width: 100%;
         background-image: url(images/masthead.png);
         background-size: cover;
         background-position-y: 55%;
@@ -364,7 +364,11 @@ footer a:any-link {
     }
     
     .logo {
-        height: 99px;
+        height: 80px;
+    }
+    
+    .nav-socials a img {
+        height: 20px;
     }
 
     .header-logo {
