@@ -36,15 +36,19 @@ header {
 }
 
 nav {
-    width: 80vw;
-    display: inline-flex;
+    width: 90vw;
     align-items: center;
     gap: 40px;
     height: 80px;
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
+}
+
+.nav-socials {
+    display: inline-block;
 }
 
 .masthead-main {
