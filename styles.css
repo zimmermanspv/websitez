@@ -84,6 +84,16 @@ nav a {
     padding-top: 15px;
 }
 
+.masthead-desc-scroll {
+    font-family: "helvetica";
+    color:#FFE100;
+    font-weight: 300;
+    font-size: 1.7em;
+    font-style: oblique;
+    margin: 0;
+    padding-top: 15px;
+}
+
 .masthead-desc-sub {
     font-family: "helvetica";
     color: #ffe100;
@@ -329,7 +339,7 @@ footer a:any-link {
     
     
     .masthead-main {
-        height: 50%;
+        height: 60%;
         width: 100%;
         background-image: url(images/masthead.png);
         background-size: cover;
@@ -344,6 +354,10 @@ footer a:any-link {
     .masthead-desc {
         font-size: 1em;
         margin-left: 30px;
+    }
+    
+    .masthead-desc-scroll {
+        display: none;
     }
     
     .masthead-desc-sub {
