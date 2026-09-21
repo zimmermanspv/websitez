@@ -302,9 +302,7 @@ footer {
         width: 100%;
         background-image: url(images/masthead.png);
         background-size: cover;
-        align-content: center;
         background-position-y: 55%;
-        justify-items: center;
     }
     
     .masthead-title {
