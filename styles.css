@@ -205,12 +205,10 @@ header a:hover {
 .header-logo {
     font-family: "helvetica";
     color: white;
-    font-weight: 900;
-    font-size: 4em;
-    margin-top: 80px;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 19%;
+    text-align: center;
+    margin-top: 110px;
 }
 
 .pages {
@@ -333,7 +331,14 @@ footer {
     }
     
     .logo {
-        height: 50px;
+        height: 90px;
     }
 
+    .header-logo {
+        margin-left: 15%;
+        margin-right: 19%;
+        text-align: center;
+        margin-top: 153px;
+    }
+    
 }
