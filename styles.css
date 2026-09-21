@@ -322,16 +322,18 @@ footer a:any-link {
     html, body {
         font-family: "helvetica";
         background-color: black;
-        width: 100%;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
     }
     
     
     .masthead-main {
-        height: 50%;
+        height: 45%;
         width: 100%;
         background-image: url(images/masthead.png);
         background-size: cover;
-        background-position-y: 55%;
+        background-position-y: 90%;
     }
     
     .masthead-title {
@@ -360,7 +362,7 @@ footer a:any-link {
     }
     
     .masthead-scroll {
-        opacity: 0;
+        display: none;
     }
     
     .logo {
