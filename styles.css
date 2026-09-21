@@ -299,7 +299,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .masthead-main {
         height: 50vh;
-        width: 100%;
+        width: 97.1%;
         background-image: url(images/masthead.png);
         background-size: cover;
         background-position-y: 55%;
@@ -333,7 +333,7 @@ footer {
     }
     
     .logo {
-        height: 80px;
+        height: 50px;
     }
 
 }
