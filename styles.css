@@ -37,9 +37,8 @@ header {
 
 nav {
     width: 80vw;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 40px;
     height: 80px;
 }
@@ -245,6 +244,7 @@ header a {
     color:black;
     margin-bottom: 20px;
     margin-left:20px;
+    border: 1px solid #ffe100;
 }
 
 .button:hover {
