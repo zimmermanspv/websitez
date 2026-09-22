@@ -329,6 +329,33 @@ footer a:any-link {
     color: #FFE100;
 }
 
+.about-body {
+    margin-top: 20px;
+    color: #FFE100;
+    width: 90%;
+    justify-self: center;
+    display: flex;
+}
+
+.about-body-module {
+    width: 45%;
+    flex: 1;
+}
+
+.about-body-module img {
+    height: 100%;
+    width: 100%;
+    border: solid 2px #ffe200;
+}
+
+.about-body h1 {
+    margin-top: 20px;
+}
+
+.about-body p {
+    line-height: 1.3em;
+}
+
 
 @media only screen and (max-width: 768px) {
     
