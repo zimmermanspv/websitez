@@ -244,6 +244,7 @@ header a {
     color: var(--primary-color);
     font-weight: 100;
     font-size: 3em;
+    line-height: 1em;
 }
 
 .page h2 {
@@ -251,6 +252,7 @@ header a {
     font-weight: 100;
     font-style: oblique;
     font-size: 1em;
+    padding-top: 10px;
 }
 
 .page img {
@@ -514,5 +516,6 @@ footer a:any-link {
     }
     
 }
+
 
 
