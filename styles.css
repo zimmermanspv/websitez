@@ -38,7 +38,7 @@ header {
 nav {
     width: 90vw;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
     height: 80px;
     display: flex;
 }
@@ -312,13 +312,14 @@ header a {
 
 
 footer {
-    width: 97%;
-    justify-self: center;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 100px;
     color: #ffe100;
-    align-content: center;
     font-size: .8em;
-    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 footer a {
@@ -373,6 +374,8 @@ footer a:any-link {
         padding: 0;
         overscroll-behavior: none;
     }
+    
+    
     
     
     .masthead-main {
@@ -436,7 +439,7 @@ footer a:any-link {
     
     nav {
         width: 90%;
-        margin-left: 0%;
+        margin-left: 2%;
         margin-right: 2%;
         height: 80px;
     }
