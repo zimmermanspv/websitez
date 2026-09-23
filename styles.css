@@ -125,9 +125,10 @@ nav a {
 .masthead-tagline {
     color:#ffe100;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0;
     padding-top: 10px;
+    padding-left: 5px;
 }
 
 .masthead-desc-sub a {
@@ -401,6 +402,11 @@ footer a:any-link {
         margin-left: 30px;
     }
     
+    .masthead-tagline {
+        margin-left: 25px;
+        font-size: 1.3em;
+    }
+
     .masthead-desc {
         font-size: 1em;
         margin-left: 30px;
