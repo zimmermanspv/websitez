@@ -122,6 +122,14 @@ nav a {
     line-height: .9em;
 }
 
+.masthead-tagline {
+    color:#ffe100;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-top: 10px;
+}
+
 .masthead-desc-sub a {
     padding-left: 0;
 }
@@ -129,7 +137,7 @@ nav a {
 header a {
     font-family: "helvetica";
     color: #FFE100;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 
@@ -488,3 +496,4 @@ footer a:any-link {
     }
     
 }
+
