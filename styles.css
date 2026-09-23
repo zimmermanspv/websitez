@@ -71,7 +71,7 @@ nav a {
 }
 
 .masthead h1, .masthead h2, .masthead h3 {
-    padding-left: 9%;
+    justify-self: center;
 }
 
 
@@ -439,7 +439,7 @@ footer a:any-link {
     
     nav {
         width: 90%;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-right: 2%;
         height: 80px;
     }
