@@ -31,7 +31,7 @@ body.loaded {
 }
 
 header {
-    width: 100%;
+    width: 94%;
     justify-items: center;
 }
 
@@ -41,6 +41,7 @@ nav {
     gap: 15px;
     height: 80px;
     display: flex;
+    font-weight: 100;
 }
 
 nav a {
@@ -118,7 +119,6 @@ nav a {
     font-size: 7em;
     margin-top: 10vh;
     margin-bottom: 0;
-    letter-spacing: 3px;
     line-height: .9em;
 }
 
@@ -130,7 +130,6 @@ header a {
     font-family: "helvetica";
     color: #FFE100;
     font-size: 1.3em;
-    font-weight: 600;
 }
 
 
@@ -177,7 +176,7 @@ header a {
 }
 
 .pages-page-hover:hover .img {
-    opacity: .9;
+    opacity: .5;
     border: 1px solid #FFE100;
 }
 
@@ -214,6 +213,8 @@ header a {
     aspect-ratio: 1 / 1;
 }
 
+
+
 .page a {
     text-decoration: none;
 }
@@ -222,7 +223,6 @@ header a {
     color: #ffe100;
     font-weight: 100;
     font-size: 3em;
-    padding-left: 20px;
 }
 
 .page h2 {
@@ -230,7 +230,6 @@ header a {
     font-weight: 100;
     font-style: oblique;
     font-size: 1em;
-    padding-left: 20px;
 }
 
 .page img {
@@ -243,26 +242,23 @@ header a {
 .page-end {
     border: solid 1px #ffe100;
     color: #ffe100;
-    align-content: flex-end;
+    align-content: center;
+    text-align: center;
 }
 
 .page-end h1 {
     padding: 0;
-    margin-bottom: 8px;
     margin-top: 0;
-    margin-left:20px;
 }
 
 .button {
     width: 200px;
-    padding: 20px;
+    padding: 15px;
     font-family: "helvetica";
     font-size: 1.3em;
     font-weight: 100;
     background-color:#FFE100;
     color:black;
-    margin-bottom: 20px;
-    margin-left:20px;
     border: 1px solid #ffe100;
 }
 
@@ -272,7 +268,7 @@ header a {
 
 .masthead-button {
     width: 200px;
-    padding: 20px;
+    padding: 15px;
     font-family: "helvetica";
     font-size: 1.9em;
     font-weight: 100;
@@ -317,10 +313,10 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
     color: #ffe100;
     font-size: .8em;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 footer a {
@@ -362,6 +358,11 @@ footer a:any-link {
 
 .about-body p {
     line-height: 1.3em;
+}
+
+.pages-page-hover a {
+    text-align: center;
+    align-content: center;
 }
 
 
@@ -447,12 +448,18 @@ footer a:any-link {
         margin-left: 5%;
         margin-right: 2%;
         height: 80px;
+        font-weight: 100;
     }
     
     header {
         width: 100%;
     }
     
+    .page-end {
+        justify-items: center;
+        align-content: center;
+    }
+
     .button {
         width: 100px;
         padding: 10px;
@@ -461,8 +468,6 @@ footer a:any-link {
         font-weight: 100;
         background-color:#FFE100;
         color: black;
-        margin-bottom: 15px;
-        margin-left: 15px;
     }
     
     .masthead-button {
