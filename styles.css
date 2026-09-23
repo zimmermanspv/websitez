@@ -67,6 +67,7 @@ nav a {
     background-size: cover;
     align-content: center;
     background-position-y: 55%;
+    background-position-x: center;
 }
 
 .masthead h1, .masthead h2, .masthead h3 {
@@ -335,17 +336,22 @@ footer a:any-link {
     width: 90%;
     justify-self: center;
     display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .about-body-module {
-    width: 45%;
     flex: 1;
 }
 
+.about-body-module-text {
+    max-width: 550px;
+}
+
 .about-body-module img {
-    height: 100%;
     width: 100%;
     border: solid 2px #ffe200;
+    min-width: 350px;
 }
 
 .about-body h1 {
@@ -416,7 +422,7 @@ footer a:any-link {
     }
     
     .logo {
-        height: 80px;
+        height: 70px;
     }
     
     .nav-socials a img {
@@ -429,9 +435,9 @@ footer a:any-link {
     }
     
     nav {
-        width: 80%;
-        margin-left: 7%;
-        margin-right: 7%;
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 2%;
         height: 80px;
     }
     
@@ -461,6 +467,10 @@ footer a:any-link {
     
     .masthead-desc-sub a {
         padding-left: 0;
+    }
+    
+    .about-body-module-text {
+        max-width: 2000px;
     }
     
 }
