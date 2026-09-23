@@ -34,3 +34,38 @@ window.addEventListener('pageshow', (event) => {
     document.body.classList.add('loaded');
   }
 });
+
+
+// Source - https://stackoverflow.com/a/67286780
+// Posted by connexo, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-09-23, License - CC BY-SA 4.0
+
+// colors.module.js
+//window.projectNamespace = window.projectNamespace || {};
+//projectNamespace.colors = window.projectNamespace.colors || {};
+//projectNamespace.colors.state = true;
+//
+//var r = document.querySelector('styles.css:root');
+//var rs = getComputedStyle(r);
+//
+//  function myFunction_set() {
+//      if (rs.getPropertyValue('--primary-bg-color') === "black") {
+//        r.style.setProperty('--primary-bg-color', '#ffe100');
+//        r.style.setProperty('--primary-color', 'black');
+//        document.getElementById("email").src="socials/mail-b.png";
+//        document.getElementById("insta").src="socials/insta-b.png";
+//        document.getElementById("personal").src="socials/website-logo-b.png";
+//        document.getElementById("logo").src="logo-b.png";
+//        document.getElementById("light-dark").textContent="Dark Mode";
+//        projectNamespace.colors.state = false;
+//      } else {
+//        r.style.setProperty('--primary-bg-color', 'black');
+//        r.style.setProperty('--primary-color', '#ffe100');
+//        document.getElementById("email").src="socials/mail.png";
+//        document.getElementById("insta").src="socials/insta.png";
+//        document.getElementById("personal").src="socials/website-logo.png";
+//        document.getElementById("logo").src="logo.png";
+//        document.getElementById("light-dark").textContent="Light Mode";
+//        projectNamespace.colors.state = true;
+//      }
+//  }

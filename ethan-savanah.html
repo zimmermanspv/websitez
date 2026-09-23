@@ -6,6 +6,40 @@
         <link rel="stylesheet" href="styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <script src="script.js"></script>
+
+        <script>
+
+            // Source - https://stackoverflow.com/a/67286780
+            // Posted by connexo, modified by community. See post 'Timeline' for change history
+            // Retrieved 2026-09-23, License - CC BY-SA 4.0
+
+            //var r = document.querySelector(':root');
+            //var rs = getComputedStyle(r);
+//
+            //if (window.projectNamespace.colors.state) {
+            //    r.style.setProperty('--primary-bg-color', 'black');
+            //    r.style.setProperty('--primary-color', '#ffe100');
+            //    document.getElementById("email").src="socials/mail.png";
+            //    document.getElementById("insta").src="socials/insta.png";
+            //    document.getElementById("personal").src="socials/website-logo.png";
+            //    document.getElementById("logo").src="logo.png";
+            //    document.getElementById("light-dark").textContent="Light Mode";
+            //    window.projectNamespace.colors.state = true;
+            //    } else {
+            //    r.style.setProperty('--primary-bg-color', '#ffe100');
+            //    r.style.setProperty('--primary-color', 'black');
+            //    document.getElementById("email").src="socials/mail-b.png";
+            //    document.getElementById("insta").src="socials/insta-b.png";
+            //    document.getElementById("personal").src="socials/website-logo-b.png";
+            //    document.getElementById("logo").src="logo-b.png";
+            //    document.getElementById("light-dark").textContent="Dark Mode";
+            //    window.projectNamespace.colors.state = false;
+            //}
+
+        </script>
+
+
     </head>
     <body oncontextmenu="return false;">
         
@@ -15,7 +49,7 @@
                 <a href="about.html">About</a>
                 
                 <a class="header-logo" href="index.html">
-                    <img class="logo" src="logo.png">
+                    <img class="logo" id="logo" src="logo.png">
                 </a>
                 
                 <div class="nav-socials">
@@ -103,7 +137,9 @@
         </div>
         
         <footer>
-            <p>© 2026 Zimmerman's Photo &amp; Video</p>
+            <p>© 2026 Zimmerman's Photo &amp; Video
+                <!--\\\\\\\\\\\\\ <a id="light-dark" onclick="myFunction_set()">Light Mode</a>-->
+            </p>
             <a href="mailto:hello@zimmermanspv.com">hello@zimmermanspv.com</a>
         </footer>
     
