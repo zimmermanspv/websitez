@@ -164,6 +164,7 @@ header a {
     position: absolute;
     height: 97%;
     align-content:flex-end;
+    width: 100%;
 }
 
 .pages-page-hover .img {
@@ -405,11 +406,14 @@ footer a:any-link {
         margin-left: 30px;
     }
     
+    
+    
     .page h1 {
         color: #ffe100;
         font-weight: 100;
         font-size: 1em;
-        padding-left: 20px;
+        padding: 0;
+        text-align: center;
     }
 
     .page h2 {
@@ -417,7 +421,8 @@ footer a:any-link {
         font-weight: 100;
         font-style: oblique;
         font-size: .8em;
-        padding-left: 20px;
+        padding: 0;
+        justify-self: center;
     }
     
     .masthead-scroll {
@@ -465,6 +470,7 @@ footer a:any-link {
     }
     
     footer {
+        margin-top: 5px;
         margin-bottom: 0;
     }
     
