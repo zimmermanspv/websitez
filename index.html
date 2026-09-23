@@ -6,6 +6,35 @@
         <link rel="stylesheet" href="styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <script>
+            var r = document.querySelector(':root');
+            var rs = getComputedStyle(r);
+
+            function myFunction_set() {
+                if (rs.getPropertyValue('--primary-bg-color') === "black") {
+                    r.style.setProperty('--primary-bg-color', '#ffe100');
+                    r.style.setProperty('--primary-color', 'black');
+                    document.getElementById("email").src="socials/mail-b.png";
+                    document.getElementById("insta").src="socials/insta-b.png";
+                    document.getElementById("personal").src="socials/website-logo-b.png";
+                    document.getElementById("logo").src="logo-b.png";
+                    document.getElementById("light-dark").textContent="Dark Mode";
+                    document.getElementById("main-mast").style="background-image: url(images/2.jpg);";
+                } else {
+                    r.style.setProperty('--primary-bg-color', 'black');
+                    r.style.setProperty('--primary-color', '#ffe100');
+                    document.getElementById("email").src="socials/mail.png";
+                    document.getElementById("insta").src="socials/insta.png";
+                    document.getElementById("personal").src="socials/website-logo.png";
+                    document.getElementById("logo").src="logo.png";
+                    document.getElementById("light-dark").textContent="Light Mode";
+                    document.getElementById("main-mast").style="background-image: url(images/masthead.png);";
+                }
+            }
+
+        </script>
+
+
     </head>
     <body oncontextmenu="return false;">
         
@@ -17,26 +46,26 @@
                 <a href="about.html">About</a>
                 
                 <a class="header-logo" href="index.html">
-                    <img class="logo" src="logo.png">
+                    <img class="logo" id="logo" src="logo.png">
                 </a>
                 
                 <div class="nav-socials">
                     <a href="mailto:hello@zimmermanspv.com" target="_blank">
-                        <img src="socials/mail.png" height="25" style="transform: scale(1.3); padding-right:5px;">
+                        <img id="email" src="socials/mail.png" height="25" style="transform: scale(1.3); padding-right:5px;">
                     </a>
 
                     <a href="https://instagram.com/zimmermans.pv/" target="_blank">
-                        <img src="socials/insta.png" height="25">
+                        <img id="insta" src="socials/insta.png" height="25">
                     </a>
                 
                 
                     <a href="https://jacobz.xyz/" target="_blank">
-                        <img src="socials/website-logo.png" height="25px">
+                        <img id="personal" src="socials/website-logo.png" height="25px">
                     </a>
                 </div>
             </nav>
         
-            <div class="masthead-main">
+            <div id="main-mast" class="masthead-main">
                 <div class="masthead-title-desc">
                     <h1 class="masthead-title">Zimmerman's<br>Photo &amp; Video</h1>
                     <h2 class="masthead-tagline">Capturing <em>Your</em> Reality.</h2>
@@ -89,7 +118,7 @@
         </div>
         
         <footer>
-            <p>© 2026 Zimmerman's Photo &amp; Video</p>
+            <p>© 2026 Zimmerman's Photo &amp; Video \\\\\\\\\\\\\ <a id="light-dark" onclick="myFunction_set()">Light Mode</a></p>
             <a href="mailto:hello@zimmermanspv.com">hello@zimmermanspv.com</a>
         </footer>
     

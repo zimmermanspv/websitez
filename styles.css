@@ -13,9 +13,16 @@
     font-display: swap;
 }
 
+:root {
+    --primary-bg-color: black;
+    --primary-color: #ffe100;
+    --const-primary-bg-color: black;
+    --const-primary-color: #ffe100;
+}
+
 html, body {
     font-family: "helvetica";
-    background-color: black;
+    background-color: var(--primary-bg-color);
     width: 100%;
     margin: 0;
     scroll-behavior: smooth;
@@ -78,7 +85,7 @@ nav a {
 
 .masthead-desc {
     font-family: "helvetica";
-    color:#FFE100;
+    color: var(--primary-color);
     font-weight: 300;
     font-size: 1.7em;
     font-style: oblique;
@@ -88,7 +95,7 @@ nav a {
 
 .masthead-desc-scroll {
     font-family: "helvetica";
-    color:#FFE100;
+    color: var(--primary-color);
     font-weight: 300;
     font-size: 1.7em;
     font-style: oblique;
@@ -98,7 +105,7 @@ nav a {
 
 .masthead-desc-sub {
     font-family: "helvetica";
-    color: #ffe100;
+    color: var(--primary-color);
     margin-top: 5px;
     font-weight: 100;
 }
@@ -115,7 +122,7 @@ nav a {
 
 .masthead-title {
     font-family: "helvetica";
-    color:#ffe100;
+    color: var(--const-primary-color);
     font-size: 7em;
     margin-top: 10vh;
     margin-bottom: 0;
@@ -123,7 +130,7 @@ nav a {
 }
 
 .masthead-tagline {
-    color:#ffe100;
+    color: var(--const-primary-color);
     font-weight: 100;
     letter-spacing: 1px;
     margin: 0;
@@ -137,7 +144,7 @@ nav a {
 
 header a {
     font-family: "helvetica";
-    color: #FFE100;
+    color: var(--primary-color);
     font-size: 1.1em;
 }
 
@@ -186,7 +193,7 @@ header a {
 
 .pages-page-hover:hover .img {
     opacity: .5;
-    border: 1px solid #FFE100;
+    border: 1px solid var(--primary-color);
 }
 
 .pages-page-hover:hover .img-hover {
@@ -198,8 +205,6 @@ header a {
 
 
 .header-logo {
-    font-family: "helvetica";
-    color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -229,13 +234,13 @@ header a {
 }
 
 .page h1 {
-    color: #ffe100;
+    color: var(--primary-color);
     font-weight: 100;
     font-size: 3em;
 }
 
 .page h2 {
-    color: #ffe100;
+    color: var(--primary-color);
     font-weight: 100;
     font-style: oblique;
     font-size: 1em;
@@ -249,8 +254,8 @@ header a {
 }
 
 .page-end {
-    border: solid 1px #ffe100;
-    color: #ffe100;
+    border: solid 1px var(--primary-color);
+    color: var(--primary-color);
     align-content: center;
     text-align: center;
 }
@@ -266,9 +271,9 @@ header a {
     font-family: "helvetica";
     font-size: 1.3em;
     font-weight: 100;
-    background-color:#FFE100;
-    color:black;
-    border: 1px solid #ffe100;
+    background-color: var(--primary-color);
+    color: var(--primary-bg-color);
+    border: 1px solid var(--primary-color);
 }
 
 .button:hover {
@@ -283,8 +288,8 @@ header a {
     font-weight: 100;
     /*font-style: oblique;*/
     background:none;
-    color:#ffe100;
-    border: 3px solid #ffe100;
+    color: var(--const-primary-color);
+    border: 3px solid var(--const-primary-color);
     margin-top: 21%;
 }
 
@@ -322,7 +327,7 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: #ffe100;
+    color: var(--primary-color);
     font-size: .8em;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -334,12 +339,12 @@ footer a {
 }
 
 footer a:any-link {
-    color: #FFE100;
+    color: var(--primary-color);
 }
 
 .about-body {
     margin-top: 20px;
-    color: #FFE100;
+    color: var(--primary-color);
     width: 90%;
     justify-self: center;
     display: flex;
@@ -357,7 +362,7 @@ footer a:any-link {
 
 .about-body-module img {
     width: 100%;
-    border: solid 2px #ffe200;
+    border: solid 2px var(--primary-color);
     min-width: 350px;
 }
 
@@ -379,7 +384,7 @@ footer a:any-link {
     
     html, body {
         font-family: "helvetica";
-        background-color: black;
+        background-color: var(--primary-bg-color);
         width: 100vw;
         margin: 0;
         padding: 0;
@@ -424,7 +429,7 @@ footer a:any-link {
     
     
     .page h1 {
-        color: #ffe100;
+        color: var(--primary-color);
         font-weight: 100;
         font-size: 1em;
         padding: 0;
@@ -432,7 +437,7 @@ footer a:any-link {
     }
 
     .page h2 {
-        color: #ffe100;
+        color: var(--primary-color);
         font-weight: 100;
         font-style: oblique;
         font-size: .8em;
@@ -480,8 +485,8 @@ footer a:any-link {
         font-family: "helvetica";
         font-size: 1em;
         font-weight: 100;
-        background-color:#FFE100;
-        color: black;
+        background-color: var(--primary-color);
+        color: var(--primary-bg-color);
     }
     
     .masthead-button {
@@ -502,4 +507,5 @@ footer a:any-link {
     }
     
 }
+
 
