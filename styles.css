@@ -59,6 +59,10 @@ nav a {
     display: inline-block;
 }
 
+.nav-socials a {
+    padding:2px;
+}
+
 .masthead-main {
     height: 91vh;
     width: 100%;
