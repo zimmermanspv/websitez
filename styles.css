@@ -397,6 +397,7 @@ form {
     justify-self: center;
     text-align: center;
     margin-bottom: 30px;
+    width:35%;
 }
 
 form input {
@@ -555,6 +556,10 @@ form button:hover {
         max-width: 2000px;
     }
     
+    form {
+        width: 80%;
+    }
+
 }
 
 
