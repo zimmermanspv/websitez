@@ -232,7 +232,7 @@ header a {
 }
 
 .page {
-    flex: 1;
+    flex: 0;
     min-width: 0;
     flex-basis: calc((100% / 3) - (18px * 3 / 4)); 
     aspect-ratio: 1 / 1;

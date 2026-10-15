@@ -41,6 +41,20 @@
 //                document.getElementById("light-dark").textContent="Dark Mode";
 //            }
 
+        var images = [
+            "images/lydia/12.jpg",
+            "images/2.jpg",
+            "images/fun/7.jpg",
+            "images/fun/2.jpg",
+            "images/darian/1.jpg"
+        ];
+
+        function loadRandomImage() {
+            document.getElementsByClassName("masthead-main")[0].style.backgroundImage = "url(" + images[Math.floor(Math.random() * images.length)] + ")";
+        }
+
+        window.onload = loadRandomImage;
+
         </script>
 
     </head>
@@ -103,10 +117,22 @@
 
             <div class="page">
                 <div class="pages-page-hover">
+                    <a href="lydia.html">
+                        <img class="img" src="images/lydia/16.jpg">
+                    </a>
+                    <a href="lydia.html">
+                        <h1 class="img-hover">Lydia &amp; Joey's Couple Photos</h1>
+                        <h2 class="img-hover">2026</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="pages-page-hover">
                     <a href="darian.html">
                         <img class="img" src="images/darian/11.jpg">
                     </a>
-                    <a href="ethan-savanah.html">
+                    <a href="darian.html">
                         <h1 class="img-hover">Darian's Maternity</h1>
                         <h2 class="img-hover">2026</h2>
                     </a>
@@ -136,12 +162,14 @@
                     </a>
                 </div>
             </div>
+            <!--
             <div class="page page-end">
                 <h1 class="img-hover" style="opacity:1 !important;">More Coming Soon!</h1>
                 <form type="submit" action="mailto:hello@zimmermanspv.com" style="opacity:1 !important;">
                     <input class="button" type="submit" value="Book Now!" />
                 </form>
             </div>
+            -->
             
         
         
@@ -164,5 +192,6 @@
 
     </body>
 </html>
+
 
 
